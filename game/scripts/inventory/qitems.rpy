@@ -1,0 +1,15 @@
+
+default puzzle_box_ITEM = Item("puzzle_box", "quest", "Puzzle Box", 0, "A wooden box with a slide puzzle located on top of it. It was found hidden behind one of the loose bricks in the fireplace. Who knows what's inside.", limit=1, label="puzzle_minigame", unlocked=False, caption="Open")
+default collar_ITEM = Item("collar", "quest", "Magic Collar", 500, "{size=-2}A collar made out of metal. It has an inscription on the back.\n\n{/size}{size=-2}{i}\"Transforms to show the wearers true self.\n WARNING: May cause harm to adjacent clothing during transformation.\"{/i}{/size}", givable=True, give_label="hg_collars", usable_on=["hermione"], caption="Give")
+default buttplugs_ITEM = Item("buttplugs", "quest", "Set of Butt Plugs", 500, "An assortment of butt plugs in various themes and sizes.", limit=1, infinite=True, givable=True, give_label="hg_butt_plugs", usable_on=["hermione"], caption="Give")
+default lootbox_ITEM = Item("cards", "quest", "Pack of Cards", 50, "A pack of wizard cards. You won't know what's inside until you open it.", label="card_lootbox", unlocked=False, caption="Open")
+default sealed_scroll_ITEM = Item("sealed_scroll", "quest", "Sealed Scroll", 500, "The scroll can be used to transmute one-self into.. something.\n{size=-4}Hint: The user can't be a virgin.{/size}", limit=1, label="tentacle_scene_intro", caption="Read")
+default quidditchguide_ITEM = Item("quidditch_book", "quest", "Quidditch Guide", 100, "This book contains the basic knowledge of Quidditch.", label="quidditch_guide_book", limit=1, image="interface/icons/generic_book.webp", unlocked=False, caption="Read")
+default thequibbler_ITEM = Item("quibbler", "quest", "The Quibbler #NO. 24027", 15, "This tabloid includes conspiracy theories and discussions of imaginary creatures and other weirdness.", label="spectrespecs_E3", limit=1, image="interface/icons/the_quibbler.webp", unlocked=False, caption="Read")
+default experimental_recipes_ITEM = Item("recipes", "quest", "Experimental Potion Recipes", 0, "This piece of paper has Snape's handwriting all over it.", limit=1, image="interface/icons/generic_scroll.webp", unlocked=False)
+default vibrators_ITEM = Item("vibrators", "quest", "Box o' fun", 1000, "A box full of vibrating devices in different shapes and forms. Some of them remain turned on.", limit=1, image="interface/icons/box-o-fun.webp", infinite=True, givable=True, give_label="hg_vibrators", usable_on=["hermione"], caption="Give")
+
+# Outfits related quest items
+default poker_outfit_ITEM = Item("her_outfit_poker", "quest", "Poke-her-nips Outfit", 15, "An outfit that doesn't leave much for the mind's desire, perfect for a lewd card loving girl.", limit=1, image="interface/icons/icon_gambler_hat.webp", unlocked=False, currency="tokens")
+default ball_outfit_ITEM = Item("her_outfit_ball", "quest", "Classy Ball Dress", 0, "A fancy dress for a fancy witch.", limit=1, image="interface/icons/icon_gambler_hat.webp", unlocked=False)
+default maid_outfit_ITEM = Item("her_outfit_maid", "quest", "French Maid Costume", 0, "A classic Maid Outfit for a classy Witch.", limit=1, image="interface/icons/feather_duster.webp", unlocked=False)
